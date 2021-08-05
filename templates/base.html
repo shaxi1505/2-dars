@@ -1,0 +1,22 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href = "{% static 'css/base.css' %}" rel = "stylesheet">
+
+
+
+</head>
+<body>
+<header>
+    <h1> <a href = "{% url 'asosiy' %}"> Xabarlar </a></h1>
+</header>
+
+
+
+{% block content %}
+{% endblock %}
+</body>
+</html>
